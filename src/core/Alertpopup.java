@@ -26,8 +26,12 @@ public class Alertpopup {
 		Submit.click();
 		
 		Alert alert = driver.switchTo().alert();
-		alert.accept();
-//		alert.dismiss();
+		//alert.accept();
+		alert.dismiss();
+		
+		driver.navigate().to("https://www.flipkart.com/");
+		
+		
 		
 		Thread.sleep(5000);
 //		Alert alert1 = driver.switchTo().alert();
